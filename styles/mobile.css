@@ -183,6 +183,9 @@ a{
 .list-lower-roman{
   list-style-type: lower-roman;
 }
+#no-style{
+  list-style: none;
+}
 /* Image */
 #content-home img{
   display: block;
