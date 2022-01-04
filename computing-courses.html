@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Computing Courses || Cantor College</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width:720px)"
+      href="styles/desktop.css"
+    />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <a href="index.html">
+          <div id="logo">
+            <img src="images/logo100x89.png">
+          </div>
+        </a>
+
+        <div class="burger">
+          <img src="images/whiteMenu.svg" alt="Menu" />
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="computing-courses.html">Computing Courses</a></li>
+            <li><a href="design-courses.html">Design Courses</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="learning-resources.html">Learning Resources</a></li>
+            <li><a href="information-students.html">Student Information</a></li>
+            <li><a href="information-staff.html">Staff Information</a></li>
+            <li><a href="working-with-business.html">Working with Business</a></li>
+            <li><a href="finding-us.html">How to Find Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="content">
+        <div class="card">
+          <h2>Computing Courses</h2>
+        </div>
+        
+        <div class="card">
+          <p>
+            The College offers a range of courses to suit applicants with varying backgrounds and educational abilities. At undergraduate level, there are single BSc Honours Degree courses in Computing, Business Computing, Software Engineering and Information Systems Design.
+          </p>
+          <p>
+            Computing is also a subject offered on the Combined Honours Programme. Higher National Diploma and Certificate courses are available in Business Information Technology and Computing. Students taking up the HND in Computing can specialise in either Business Computing, Software Engineering or Information Systems Design.
+          </p>
+          <p>
+            The courses are British Computer Society accredited and are highly relevant to modern industry. They are designed to prepare students for professional occupations in Computing and related fields. Many graduates continue their studies to pursue a higher degree such as an MSc. or PhD.
+          </p>
+        </div>
+
+        <div class="card">
+          <input type="text" id="input" onkeyup="tableSearch()" placeholder="Search by course title...">
+          <table id="course-table">
+            <tr>
+              <th>Course Title</th>
+              <th>Years of Study</th>
+              <th>Placement Opportunity</th>
+            </tr>
+            <tr>
+              <td>BSc (Hons) Computing</td>
+              <td>3</td>
+              <td>N</td>
+            </tr>
+            <tr>
+              <td>BSc (Hons) Software Engineering</td>
+              <td>3</td>
+              <td>Y</td>
+            </tr>
+            <tr>
+              <td>BSc (Hons) Multimedia System Design</td>
+              <td>3</td>
+              <td>Y</td>
+            </tr>
+            <tr>
+              <td>BSc (Hons) Business Computing</td>
+              <td>3</td>
+              <td>N</td>
+            </tr>
+            <tr>
+              <td>BSc (Hons) Information Systems Design</td>
+              <td>3</td>
+              <td>N</td>
+            </tr>
+            <tr>
+              <td>Computing BA/BSc Comb. Hons Programme</td>
+              <td>1</td>
+              <td>N</td>
+            </tr>
+            <tr>
+              <td>Or</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>HND Computing (3 routes: Software Engineering, Business Computing and Information Systems Design)</td>
+              <td>1</td>
+              <td>N</td>
+            </tr>
+            <tr>
+              <td>MSc Multimedia Computing</td>
+              <td>1</td>
+              <td>N</td>
+            </tr>
+          </table>
+        </div>
+        
+      </div>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Staff</h3>
+            <ul class="footer-list">
+              <li><a href="#">News</a></li>
+              <li><a href="#">Academic Registry</a></li>
+              <li><a href="#">Financial Services</a></li>
+              <li><a href="#">Information Systems Services</a></li>
+              <li><a href="#">Personnel Services</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Students</h3>
+            <ul class="footer-list">
+              <li><a href="#">Academic Information</a></li>
+              <li><a href="#">Administrative Support</a></li>
+              <li><a href="#">Student Services</a></li>
+              <li><a href="#">University Services</a></li>
+              <li><a href="#">Life at the University</a></li>
+              <li><a href="#">Communications</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/sheffieldhallamuniversity"><img src="images/facebook-logo.svg" class="social-image"></a>
+            <a href="https://www.instagram.com/sheffhallamuni/"><img src="images/instagram-logo.svg" class="social-image"></a>
+          </div>
+          <span id="clock">Clock</span>
+        </div>
+        <div id="footer-copyright">
+          <p>Copyright &copy; 2022</p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

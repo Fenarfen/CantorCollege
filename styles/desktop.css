@@ -1,0 +1,73 @@
+/* Containers */
+#container {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+}
+/* Header */
+header {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+  padding: 10px;
+  display: block;
+}
+.burger {
+  display: none;
+}
+/* Nav */
+nav li a:hover {
+  color: #fff;
+}
+nav {
+  margin: auto;
+  margin-right: 0%;
+  display: block;
+}
+nav ul {
+  padding-left: 0;
+  flex-direction: row;
+}
+nav ul li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-left: 1px solid #fff;
+  text-align: center;
+}
+nav li:first-child {
+  border-left: none;
+}
+/* Form */
+form {
+  width: 75%;
+  margin: auto;
+}
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+label {
+  display: inline-block;
+  width: 120px;
+}
+.submitContainer {
+  justify-content: flex-end;
+}
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
+/* Cards */
+.card img{
+  float: left;
+  margin-right: 10px;
+}
+/* Footer */
+.footer-column{
+  width: 30%;
+  margin: 0 auto;
+}
