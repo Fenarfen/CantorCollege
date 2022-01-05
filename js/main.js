@@ -17,6 +17,7 @@ $(document).ready(function(){
         }
     };
 
+    //Clock
     var showCurrentTime = function(){
         var clock = document.getElementById('clock');
 
